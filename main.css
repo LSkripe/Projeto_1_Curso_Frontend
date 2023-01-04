@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, section h2, header nav li a{
+    font-family: 'Orbitron', sans-serif;
+}
+
+body{
+    font-family: 'Anybody', cursive;
+}
+
+header, a{
+    padding: 16px, 0;
+    background-color:#182c61;
+    color: #fff;
+}
+
+header nav li a, header h1 a{
+    color: #fff;
+    text-decoration: none;
+}
+
+header h1{
+    font-weight: normal;
+}
+
+header nav li{
+    display: inline;
+    margin: 16px;
+    font-size: 18px;
+}
+
+header .container, section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#Render_img img{
+    height: 600px;
+    margin-right: 20px;
+}
+
+.Render_img2 img{
+    height: 40px;
+    margin-right: 20px;
+}
+
+.Render_img2 li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.Render_img2 a{
+    background-color:#fff;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
