@@ -1,82 +1,188 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header, section h2, header nav li a{
-    font-family: 'Orbitron', sans-serif;
+header,
+section h2,
+section h3,
+header h1 a,
+form button{
+    font-family: 'Michroma', sans-serif;
+    font-weight:bold;
 }
 
-body{
-    font-family: 'Anybody', cursive;
+body,
+form input,
+form textarea {
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-header, a{
-    padding: 16px, 0;
-    background-color:#182c61;
-    color: #fff;
+header {
+    padding: 16px 0;
+    background-color: #000000;
 }
 
-header nav li a, header h1 a{
-    color: #fff;
+.container h1{ 
+    font-weight:1000;
+    font-size: 40px;
+}
+
+.container h1 a{
     text-decoration: none;
+    color: #00ff00
 }
 
-header h1{
-    font-weight: normal;
-}
-
-header nav li{
+header nav li {
     display: inline;
-    margin: 16px;
-    font-size: 18px;
+    margin-left: 16px;
+    font-size: 15px;
 }
 
-header .container, section .container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+header nav li a{
+    color: #00ff00;
+    text-decoration: none;
+    font-weight:580;
 }
 
-.container{
+.container {
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
 }
 
-#Render_img img{
-    height: 600px;
-    margin-right: 20px;
+header .container,
+section .container,
+#info-filme .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.Render_img2 img{
-    height: 40px;
-    margin-right: 20px;
+.img-front {
+    height: 500px;
+    margin-right: 25px;
 }
 
-.Render_img2 li {
+.brands-list img {
+    height: 35px;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+
+.brands-list li {
     display: inline;
-    margin-right: 8px;
-}
-
-.Render_img2 a{
-    background-color:#fff;
 }
 
 section .container{
     align-items: flex-start;
 }
 
-section{
+section {
     padding: 24px 0;
 }
 
-section h2{
+section h2 {
     margin-bottom: 16px;
 }
 
-section p{
+section p {
     margin-bottom: 8px;
 }
 
+.social-links img{
+    height: 35px;
+}
+
+.social-links li{
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-mothods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 10px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 20px;
+}
+
+form button{
+    background-color: #000000;
+    color: #00ff00;
+    font-weight: normal;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #0f0f0fde;
+}
+
+form input,
+form textarea{
+    font-weight: bold;
+}
+
+input:focus, textarea:focus {
+    outline-color: #00ff00;
+}
+
+footer {
+    background-color: #000000;
+    color: #00ff00;
+    padding: 20px 0;
+}
+
+footer .container {
+    max-width:max-content;
+}
+
+#filmes .container img,
+#games .container img{
+    height: 420px;
+    margin-right: 10px;
+}
+
+
+#info .container img{
+    height: 160px;
+    margin-right: 10px;
+}
+
+#info .container h2{
+    font-size: 16px;
+}
+
+#info .link-more {
+    margin-top: 50px;
+    font-weight: 600;
+}
+
+#info .link-more a{
+    color: #067e06;
+}
